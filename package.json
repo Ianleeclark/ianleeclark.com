@@ -1,0 +1,27 @@
+{
+  "name": "ianleeclark.com",
+  "version": "1.0.0",
+  "description": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrappigPanda/ianleeclark.com.git"
+  },
+  "keywords": [
+    "Personal",
+    "Website"
+  ],
+  "author": "Ian Lee Clark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GrappigPanda/ianleeclark.com/issues"
+  },
+  "homepage": "https://github.com/GrappigPanda/ianleeclark.com#readme",
+  "devDependencies": {
+    "bower": "^1.6.8",
+    "gulp-livereload": "^3.8.1"
+  }
+}

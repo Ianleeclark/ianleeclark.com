@@ -1,0 +1,91 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: #0f0f23;
+    font-family: "Source Code Pro", monospace;
+}
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    text-shadow: 0 0 10px antiquewhite;
+}
+a:hover {
+    color: #ffff00;
+    font-style: normal;
+    text-shadow: 0 0 5px antiquewhite;
+}
+a:visited {
+    color: antiquewhite;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+.container {
+    height: 100%;
+    width: 33.3%;
+    display: block;
+}
+.content {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.textbox {
+    height: 100%;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 14pt;
+}
+.center {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    height: 66.7%;
+    width: 100%;
+}
+.spacer {
+    position: relative;
+    height: 33.3%;
+    width: 100%;
+}
+@media screen and (max-device-width: 320px) {
+    .spacer {
+        height: 16.5%;
+    }
+    .container {
+        width: 80%;
+    }
+    .textbox {
+        font-size: 32px;
+    }
+    main p {
+        font-size: 48px;
+    }
+}
+@media screen and (max-device-width: 480px) {
+    .spacer {
+        height: 16.5%;
+    }
+    .container {
+        width: 80%;
+        font-size: 16em;
+    }
+}
+@media screen and (max-device-width: 720px) {
+    .spacer {
+        height: 16.5%;
+    }
+    .container {
+        width: 80%;
+        font-size: 16em;
+    }
+}
