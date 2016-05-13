@@ -8,12 +8,12 @@ body {
 a {
     text-decoration: none;
     color: antiquewhite;
-    text-shadow: 0 0 10px antiquewhite;
+    text-shadow: 0 0 5px antiquewhite;
 }
 a:hover {
     color: #ffff00;
     font-style: normal;
-    text-shadow: 0 0 5px antiquewhite;
+    text-shadow: 0 0 1px antiquewhite;
 }
 a:visited {
     color: antiquewhite;
