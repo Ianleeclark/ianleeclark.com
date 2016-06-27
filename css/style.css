@@ -22,7 +22,7 @@ ul {
     padding: 0;
 }
 li {
-    list-style-type: none;
+    display: inline;
 }
 .container {
     height: 100%;
