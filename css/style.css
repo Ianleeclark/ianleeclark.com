@@ -57,6 +57,42 @@ li {
     height: 33.3%;
     width: 100%;
 }
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer > .social {
+    width: 50%;
+    float: right;
+}
+
+.footer > .local-links {
+    width: 50%;
+    display: inline-block;
+}
+
+.footer > .social > ul {
+    text-align: right;
+}
+
+.footer > .social > ul > li {
+    padding-right: 1.5%;
+}
+
+.footer > .local-links > ul {
+    text-align: left;
+}
+
+.footer > .local-links > ul > li {
+    padding-left: 1.5%;
+    font-size: 100%;
+}
+
 @media screen and (max-device-width: 320px) {
     .spacer {
         height: 16.5%;
@@ -70,7 +106,12 @@ li {
     main p {
         font-size: 48px;
     }
+
+    .footer {
+        height: 16.5%;
+    }
 }
+
 @media screen and (max-device-width: 480px) {
     .spacer {
         height: 16.5%;
@@ -79,13 +120,41 @@ li {
         width: 80%;
         font-size: 16em;
     }
+
+    .textbox {
+        font-size: 32px;
+    }
+
+    main p {
+        font-size: 48px;
+    }
+
+    .footer {
+        height: 8%;
+        font-size: 50px;
+    }
+
+    .footer > .social > ul > li {
+        padding-left: 5%;
+    }
 }
+
 @media screen and (max-device-width: 720px) {
     .spacer {
         height: 16.5%;
     }
     .container {
         width: 80%;
+        height: 100%;
         font-size: 16em;
+    }
+
+    .footer {
+        height: 8%;
+        font-size: 50px;
+    }
+
+    .footer > .social > ul > li {
+        padding-left: 5%;
     }
 }
