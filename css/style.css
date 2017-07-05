@@ -24,7 +24,7 @@ ul {
 li {
     display: inline;
 }
-.container {
+.container-custom {
     height: 100%;
     width: 33.3%;
     display: block;
