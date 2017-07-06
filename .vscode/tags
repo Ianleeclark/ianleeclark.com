@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AUTHOR	../blog/pelicanconf.py	/^AUTHOR = 'Ian Clark'$/;"	kind:variable	line:5
+AUTHOR_FEED_ATOM	../blog/pelicanconf.py	/^AUTHOR_FEED_ATOM = None$/;"	kind:variable	line:19
+AUTHOR_FEED_RSS	../blog/pelicanconf.py	/^AUTHOR_FEED_RSS = None$/;"	kind:variable	line:20
+CATEGORY_FEED_ATOM	../blog/pelicanconf.py	/^CATEGORY_FEED_ATOM = None$/;"	kind:variable	line:17
+CATEGORY_FEED_ATOM	../blog/publishconf.py	/^CATEGORY_FEED_ATOM = 'feeds\/%s.atom.xml'$/;"	kind:variable	line:17
+DEFAULT_LANG	../blog/pelicanconf.py	/^DEFAULT_LANG = 'en'$/;"	kind:variable	line:13
+DEFAULT_PAGINATION	../blog/pelicanconf.py	/^DEFAULT_PAGINATION = 5$/;"	kind:variable	line:32
+DELETE_OUTPUT_DIRECTORY	../blog/publishconf.py	/^DELETE_OUTPUT_DIRECTORY = True$/;"	kind:variable	line:19
+FEED_ALL_ATOM	../blog/pelicanconf.py	/^FEED_ALL_ATOM = None$/;"	kind:variable	line:16
+FEED_ALL_ATOM	../blog/publishconf.py	/^FEED_ALL_ATOM = 'feeds\/all.atom.xml'$/;"	kind:variable	line:16
+LINKS	../blog/pelicanconf.py	/^LINKS = (('Pelican', 'http:\/\/getpelican.com\/'),$/;"	kind:variable	line:23
+PATH	../blog/pelicanconf.py	/^PATH = 'content'$/;"	kind:variable	line:9
+RELATIVE_URLS	../blog/publishconf.py	/^RELATIVE_URLS = False$/;"	kind:variable	line:14
+SITENAME	../blog/pelicanconf.py	/^SITENAME = 'Eight of Swords'$/;"	kind:variable	line:6
+SITEURL	../blog/pelicanconf.py	/^SITEURL = ''$/;"	kind:variable	line:7
+SITEURL	../blog/publishconf.py	/^SITEURL = 'https:\/\/ianleeclark.com\/blog'$/;"	kind:variable	line:13
+SOCIAL	../blog/pelicanconf.py	/^SOCIAL = (('You can add links in your config file', '#'),$/;"	kind:variable	line:29
+TIMEZONE	../blog/pelicanconf.py	/^TIMEZONE = 'America\/Chicago'$/;"	kind:variable	line:11
+TRANSLATION_FEED_ATOM	../blog/pelicanconf.py	/^TRANSLATION_FEED_ATOM = None$/;"	kind:variable	line:18
+pelicanconf.py	../blog/pelicanconf.py	1;"	kind:file	line:1
+publishconf.py	../blog/publishconf.py	1;"	kind:file	line:1
