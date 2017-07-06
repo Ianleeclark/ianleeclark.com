@@ -24,11 +24,6 @@ ul {
 li {
     display: inline;
 }
-.container-custom {
-    height: 100%;
-    width: 33.3%;
-    display: block;
-}
 .content {
     position: relative;
     height: 100%;
@@ -41,38 +36,68 @@ h3 {
 }
 
 .footer {
-    padding-top: 5%;
-    position: absolute;
+    float: left;
     right: 0;
     bottom: 0;
     left: 0;
     width: 100%;
 }
 
-.footer > .social {
-    width: 50%;
-    float: right;
-}
-
-.footer > .local-links {
-    width: 50%;
-    display: inline-block;
-}
-
-.footer > .social > ul {
-    text-align: right;
-}
-
 .footer > .social > ul > li {
     padding-right: 1.5%;
 }
 
-.footer > .local-links > ul {
-    text-align: left;
-}
-
 .footer > .local-links > ul > li {
-    padding-left: 1.5%;
     font-size: 100%;
 }
 
+container {
+    max-width: 100%;
+}
+
+@media (min-width: 400px) {
+    .footer {
+        height: 8%;
+        font-size: 3.6rem;
+    }
+
+    .footer > .social {
+        width: 100%;
+    }
+
+    .footer > .social > ul > li {
+        padding-left: 5%;
+    }
+}
+
+@media (min-width: 750px) {
+    .footer {
+        font-size: 100%;
+    }
+
+    .footer > .social {
+        width: 50%;
+        float: right;
+    }
+
+    .footer > .local-links {
+        width: 50%;
+        display: inline-block;
+    }
+
+    .footer > .social > ul > li {
+        padding-left: 1.5%;
+    }
+
+    .footer > .social > ul > li {
+        padding-right: 1.5%;
+    }
+
+    .footer > .social > ul {
+        text-align: right;
+    }
+
+    .footer > .local-links > ul {
+        text-align: left;
+    }
+}
