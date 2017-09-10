@@ -2,6 +2,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    max-height: 100%;
     background: #0f0f23;
     font-family: "Source Code Pro", monospace;
 }
@@ -36,23 +37,58 @@ h3 {
 }
 
 .footer {
-    float: left;
+    position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     width: 100%;
+    max-width: 100%;
+}
+
+.footer > .social {
+    width: 50%;
+    float: right;
+}
+
+.footer > .local-links {
+    width: 50%;
+    display: inline-block;
+}
+
+.footer > .social > ul {
+    text-align: right;
 }
 
 .footer > .social > ul > li {
     padding-right: 1.5%;
 }
 
+.footer > .local-links > ul {
+    text-align: left;
+}
+
 .footer > .local-links > ul > li {
+    padding-left: 1.5%;
     font-size: 100%;
 }
 
-container {
+.container {
     max-width: 100%;
+}
+
+div#hero {
+    min-height: 33.3%;
+}
+
+div#offerings {
+    min-height: 20%;
+}
+
+div#footerDiv {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    float: left;
 }
 
 @media (min-width: 400px) {

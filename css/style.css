@@ -26,7 +26,6 @@ li {
 }
 .container-custom {
     height: 100%;
-    width: 33.3%;
     display: block;
 }
 .content {
@@ -93,12 +92,13 @@ li {
     font-size: 100%;
 }
 
+.div > #hero {
+    min-height: 33%;
+}
+
 @media screen and (max-device-width: 320px) {
     .spacer {
         height: 16.5%;
-    }
-    .container {
-        width: 80%;
     }
     .textbox {
         font-size: 32px;
@@ -117,7 +117,6 @@ li {
         height: 16.5%;
     }
     .container {
-        width: 80%;
         font-size: 16em;
     }
 
@@ -144,7 +143,6 @@ li {
         height: 16.5%;
     }
     .container {
-        width: 80%;
         height: 100%;
         font-size: 16em;
     }
