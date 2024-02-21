@@ -1,0 +1,96 @@
+:root {
+    box-sizing: border-box;   
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html, 
+body {
+    height: calc(100% - 0.5em);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    font-family: "Source Code Pro", monospace;
+    background: #0f0f23;
+    color: whitesmoke;
+
+    &,
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    text-shadow: 0 0 5px antiquewhite;
+
+    &:hover {
+        color: #ffff00;
+        font-style: normal;
+        text-shadow: 0 0 1px antiquewhite;
+    }
+
+    &:visited {
+        color: antiquewhite;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+main {
+    flex: 1 0 auto;
+
+    & * {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    & > * + * {
+        margin-top: 1em;
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+    & p {
+        --padding-amount: clamp(1em, calc(1em + 5vh), 5em);
+        margin: 0 var(--padding-amount) 0 var(--padding-amount);
+    }
+    
+    & p {
+        text-justify: center;
+    }
+}
+
+.footer {
+    flex-shrink: 0;
+
+    & ul {
+        min-width: 100%;
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: row;
+
+        & > * + * {
+            margin-left: 1em;
+        }
+    }
+
+}
+
+.resume-link {
+}

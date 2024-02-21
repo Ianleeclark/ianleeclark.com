@@ -1,36 +1,17 @@
 {
   "name": "ianleeclark.com",
   "version": "1.0.0",
-  "description": "1.0.0",
-  "main": "index.html",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass --include-path scss styles.scss styles.css",
+    "watch": "nodemon -e scss -x npm run css"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GrappigPanda/ianleeclark.com.git"
-  },
-  "keywords": [
-    "Personal",
-    "Website"
-  ],
-  "author": "Ian Lee Clark",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/GrappigPanda/ianleeclark.com/issues"
-  },
-  "homepage": "https://github.com/GrappigPanda/ianleeclark.com#readme",
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "bower": "^1.6.8",
-    "gulp-livereload": "^3.8.1"
-  },
-  "dependencies": {
-    "del": "^3.0.0",
-    "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-minify-css": "^1.2.4",
-    "gulp-uglify": "^3.0.0",
-    "underscore": "^1.8.3",
-    "underscore.string": "^3.3.4"
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.3"
   }
 }
